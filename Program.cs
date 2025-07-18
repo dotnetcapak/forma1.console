@@ -10,7 +10,16 @@
 // Williams	    GBR Egyesült Királyság	GBR Oxfordshire
 // Console.WriteLine("ide jön a szöveg");
 
-
+Console.WriteLine("Red Bull");
+Console.WriteLine("Ferrari"); 
+Console.WriteLine("Mercedes");	   
+Console.WriteLine("Alpine");	   
+Console.WriteLine("McLaren");	   
+Console.WriteLine("Alfa Romeo");	
+Console.WriteLine("Aston Martin");
+Console.WriteLine("Haas");	       
+Console.WriteLine("AlphaTauri");
+Console.WriteLine("Williams");  	 
 
 
 
