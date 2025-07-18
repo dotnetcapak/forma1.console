@@ -10,20 +10,43 @@
 // Williams	    GBR Egyesült Királyság	GBR Oxfordshire
 // Console.WriteLine("ide jön a szöveg");
 
-Console.WriteLine("Red Bull");
-Console.WriteLine("Ferrari"); 
-Console.WriteLine("Mercedes");	   
-Console.WriteLine("Alpine");	   
-Console.WriteLine("McLaren");	   
-Console.WriteLine("Alfa Romeo");	
-Console.WriteLine("Aston Martin");
-Console.WriteLine("Haas");	       
-Console.WriteLine("AlphaTauri");
-Console.WriteLine("Williams");  	 
+// Console.WriteLine("Red Bull");
+// Console.WriteLine("Ferrari"); 
+// Console.WriteLine("Mercedes");	   
+// Console.WriteLine("Alpine");	   
+// Console.WriteLine("McLaren");	   
+// Console.WriteLine("Alfa Romeo");	
+// Console.WriteLine("Aston Martin");
+// Console.WriteLine("Haas");	       
+// Console.WriteLine("AlphaTauri");
+// Console.WriteLine("Williams");  	 
 
+using Microsoft.VisualBasic;
 
+var list = new string[] {
+    "Red Bull",
+    "Ferrari",
+    "Mercedes",
+    "Alpine",
+    "McLaren",
+    "Alfa Romeo",
+    "Aston Martin",
+    "Haas",
+    "AlphaTauri",
+    "Williams",
+};
 
-
-
+foreach (var item in list)
+{
+    if (item == "Mercedes")
+    {
+        var itemUpperCase = item.ToUpper();
+        Console.WriteLine(itemUpperCase);
+    }
+    else
+    {
+        Console.WriteLine(item);
+    }
+}
 
 
