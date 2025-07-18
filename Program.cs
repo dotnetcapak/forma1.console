@@ -38,6 +38,11 @@ var list = new string[] {
 
 foreach (var item in list)
 {
+    WriteToConsole(item);
+}
+
+void WriteToConsole(string item)
+{
     if (item == "Mercedes")
     {
         var itemUpperCase = item.ToUpper();
@@ -48,5 +53,4 @@ foreach (var item in list)
         Console.WriteLine(item);
     }
 }
-
 
